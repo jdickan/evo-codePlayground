@@ -9,7 +9,7 @@ codepen style playground for presenting code patterns, and experimenting with li
 5. npm install ejs -- save
 
 # To start the server
-node index.js
+`node index.js`
 
 ## Tip
 With the node server it needs to be restrated to show changes.  Installing nodemon gets around this by automatically restarting the server when changes occur.  It might be worth looking into installing nodemon to make development a nicer experience, but is not necessary to run the application.
