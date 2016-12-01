@@ -78,6 +78,9 @@ body {
               }
             }
           }
+          &:last-child {
+            border-right: 0px solid transparent;
+          }
         }
       }
       .box-output {

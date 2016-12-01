@@ -73,6 +73,8 @@ body {
               body .playground .boxes .box-edit .box .code-block textarea:focus {
                 background: #31343F;
                 outline: 0px solid transparent; }
+          body .playground .boxes .box-edit .box:last-child {
+            border-right: 0px solid transparent; }
       body .playground .boxes .box-output {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
