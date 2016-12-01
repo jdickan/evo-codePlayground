@@ -11,9 +11,12 @@ codepen style playground for presenting code patterns, and experimenting with li
 # To start the server
 `node index.js`
 
+# To view the page (on local server)
+
+Navigate to [localhost:3030](http://localhost:3030/) and you should see the root page.
+
 ## Tip
 The node server needs to be restrated to show changes.  Installing [nodemon](https://www.npmjs.com/package/nodemon.) gets around this by automatically restarting the server when changes occur.  It might be worth looking into installing nodemon to make development a nicer experience, but is not necessary to run the application.
-
 
 ### To install globally
 `npm install -g nodemon`
