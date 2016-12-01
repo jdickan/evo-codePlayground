@@ -15,6 +15,26 @@
 		"oAP": "\/LICENSE",
 		"oF": 0
 		},
+	"\/normalize.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/normalize-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/playground.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/playground-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/playground.html": {
 		"ft": 8192,
 		"oA": 2,
