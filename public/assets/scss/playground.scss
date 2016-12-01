@@ -19,23 +19,24 @@
       width: 100%;
       display: flex;
       flex-shrink: 0;
-      background: #1d1f20;
-      border-bottom: 15px solid #373839;
+      background: #262831;
+      border-bottom: 15px solid #1B1C22;
       position: relative;
       overflow: hidden;
 
       .box {
         height: 100%;
         width: 33.3333%;
-        border-right: 1px solid #252829;
-        color: #ffffff;
+        border-right: 1px solid #1B1C22;
+        border-bottom: 1px solid #31343F;
+        color: #D7D8E0;
         position: relative;
         overflow: hidden;
 
         .bar {
           padding: 8px 10px;
-          background: rgba(0,0,0,0.1);
-          border-bottom: 1px solid #252829;
+          background: rgba(0,0,0,0.15);
+          border-bottom: 1px solid #1B1C22;
           white-space: nowrap;
           position: relative;
         }
@@ -49,13 +50,18 @@
             width: 100%;
             height: 100%;
             padding: 15px;
-            background: #1d1f20;
+            background: #262831;
             border: 0;
             resize: none;
             color: #ffffff;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1em;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            line-height: 1.618em;
 
             &:focus {
-              background: #252829;
+              background: #31343F;
               outline: 0px solid transparent;
             }
           }
@@ -69,6 +75,7 @@
       .results {
         height: 100%;
         width: 100%;
+        border-top: 1px solid #31343F;
         display: flex;
         flex-direction: column;
         position: absolute;

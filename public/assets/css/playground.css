@@ -29,21 +29,22 @@
       display: flex;
       -ms-flex-negative: 0;
           flex-shrink: 0;
-      background: #1d1f20;
-      border-bottom: 15px solid #373839;
+      background: #262831;
+      border-bottom: 15px solid #1B1C22;
       position: relative;
       overflow: hidden; }
       .playground .boxes .box-edit .box {
         height: 100%;
         width: 33.3333%;
-        border-right: 1px solid #252829;
-        color: #ffffff;
+        border-right: 1px solid #1B1C22;
+        border-bottom: 1px solid #31343F;
+        color: #D7D8E0;
         position: relative;
         overflow: hidden; }
         .playground .boxes .box-edit .box .bar {
           padding: 8px 10px;
-          background: rgba(0, 0, 0, 0.1);
-          border-bottom: 1px solid #252829;
+          background: rgba(0, 0, 0, 0.15);
+          border-bottom: 1px solid #1B1C22;
           white-space: nowrap;
           position: relative; }
         .playground .boxes .box-edit .box .code-block {
@@ -55,12 +56,17 @@
             width: 100%;
             height: 100%;
             padding: 15px;
-            background: #1d1f20;
+            background: #262831;
             border: 0;
             resize: none;
-            color: #ffffff; }
+            color: #ffffff;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 1em;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            line-height: 1.618em; }
             .playground .boxes .box-edit .box .code-block textarea:focus {
-              background: #252829;
+              background: #31343F;
               outline: 0px solid transparent; }
     .playground .boxes .box-output {
       -webkit-box-flex: 1;
@@ -70,6 +76,7 @@
       .playground .boxes .box-output .results {
         height: 100%;
         width: 100%;
+        border-top: 1px solid #31343F;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
