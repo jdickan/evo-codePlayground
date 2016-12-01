@@ -23,6 +23,7 @@
     "body-parser": "^1.15.2",
     "ejs": "^2.5.3",
     "express": "^4.14.0",
-    "express-form": "^0.12.6"
+    "express-form": "^0.12.6",
+    "express-partial": "^0.1.0"
   }
 }

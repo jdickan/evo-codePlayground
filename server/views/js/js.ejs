@@ -1,0 +1,15 @@
+function pulse() {
+    $('.glow').animate({
+        width: 600, height: 300, // sets the base height and width
+        opacity: 0.1
+    }, 700, function() {
+        $('.glow').animate({
+            width: 520, height: 120, // sets the alternative height and width
+            opacity: 1
+        }, 700, function() {
+            pulse();
+        });
+    }); 
+};
+
+pulse();

@@ -7,7 +7,7 @@ var app = express();
 
 var ejs = require('ejs')
 
-app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
 // adds route to deliver index page
 app.use(express.static('public/assets'));
 app.use(express.static('server/views'));
@@ -15,7 +15,27 @@ app.use(bodyParser());
 
 // adds route to deliver index page
 app.get('/', function(req, res) {
-  res.render(__dirname + '/server/views/playground.html');
+  res.render(__dirname + '/server/views/playground.ejs');
+});
+
+// 
+app.get('/html', function(req, res) {
+  res.render(__dirname + '/server/views/html/html.ejs');
+});
+
+// 
+app.get('/css', function(req, res) {
+  res.render(__dirname + '/server/views/css/css.ejs');
+});
+
+// 
+app.get('/js', function(req, res) {
+  res.render(__dirname + '/server/views/js/js.ejs');
+});
+
+// 
+app.get('/template', function(req, res) {
+  res.render(__dirname + '/server/views/template.ejs');
 });
 
 var port = 3030;

@@ -8,14 +8,13 @@
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
 
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/playground.css">
 
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
   </head>
+
   <body>
     <div class="playground">
       <div class="boxes">
@@ -25,7 +24,7 @@
               HTML
             </div>
             <div class="code-block">
-              <textarea class="html-container" name="name" rows="8" cols="80"></textarea>
+              <textarea id="editor" class="html-container" name="name" rows="8" cols="80"></textarea>
             </div>
           </div>
           <div class="box box-css">
@@ -45,19 +44,30 @@
             </div>
           </div>
         </div>
+<!--         <button class="run-button" style="cursor:pointer;"> Run </button> -->
         <div class="box-output">
           <div class="results">
-            <iframe src="" class="iframe-result"></iframe>
+<!--             <textarea id="the-frame" src="" class="iframe-result"></textarea> -->
+
+<!--             <button onclick="submit_html();">Submit</button>
+
+            <iframe id="result" style="height:800px;"></iframe> -->
+
           </div>
         </div>
       </div>
     </div>
   </body>
+
 <script>
+
+
   $(document).ready(function() {
-    $('.html-container').text("<div class='super-cool-class-from-the-future'> This is so many text </div>");
-    $('.css-container').text("body { padding:25px; { .super-cool-class-from-the-future { color: #ff0000; } }");
-    $('.js-container').text("$(document).ready({ alert('BOOM!'); });");
+    $('.html-container').load('/html');
+    $('.css-container').load('/css');
+    $('.js-container').load('/js');
+    $('.results').load('/template');
   });
+
 </script>
 </html>
