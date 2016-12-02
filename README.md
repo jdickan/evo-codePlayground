@@ -1,24 +1,30 @@
 # evo-codePlayground
-codepen style playground for presenting code patterns, and experimenting with live edits and changes.
+Codepen-style playground for presenting code patterns and experimenting with live edits and changes.
 
-# Setup the application
-1. cd into the directory
-2. npm install express --save
-3. npm install express-from --save
-4. npm install body-parser --save
-5. npm install ejs -- save
+## Setup the application
+```shell
+$ cd into the directory
+$ npm install express --save
+$ npm install express-form --save
+$ npm install body-parser --save
+$ npm install ejs -- save
+```
 
-# To start the server
-`node index.js`
+## To start the server
+```shell
+$ node index.js
+```
 
-# To view the page (on local server)
+## To view the page (on local server)
 
 Navigate to [localhost:3030](http://localhost:3030/) and you should see the root page.
 
 ## Tip
-The node server needs to be restrated to show changes.  Installing [nodemon](https://www.npmjs.com/package/nodemon.) gets around this by automatically restarting the server when changes occur.  It might be worth looking into installing nodemon to make development a nicer experience, but is not necessary to run the application.
+>The node server needs to be restarted to show changes. Installing [nodemon](https://www.npmjs.com/package/nodemon) gets around this by automatically restarting the server when changes occur.  It might be worth looking into installing nodemon to make development a nicer experience, but it is not necessary to run the application.
 
 ### To install globally
-`npm install -g nodemon`
+```shell
+$ npm install -g nodemon
+```
 
-Once that has finished you can run the application by typing `nodemon index.js` in place of `node index.js`.  Both will work.
+Once that has finished you can run the application by typing `$ nodemon index.js` in place of the `$ node index.js` command. Both will work.
