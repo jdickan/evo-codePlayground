@@ -58,6 +58,10 @@ $white: #FFFFFF;
           height: 100%;
           height: calc(100% - 35px);
           width: 100%;
+          margin: 0;
+          background: $black;
+          border: none;
+          border-radius: 0;
           position: relative;
 
           textarea {

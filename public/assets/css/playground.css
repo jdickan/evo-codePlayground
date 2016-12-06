@@ -57,6 +57,10 @@
           height: 100%;
           height: calc(100% - 35px);
           width: 100%;
+          margin: 0;
+          background: #1B1C22;
+          border: none;
+          border-radius: 0;
           position: relative; }
           .playground .boxes .box-edit .box .code-block textarea {
             width: 100%;
