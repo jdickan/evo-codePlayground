@@ -1,13 +1,4 @@
-function pulse() {
-    $('.glow').animate({
-        opacity: 0.1
-    }, 700, function() {
-        $('.glow').animate({
-            opacity: 1
-        }, 700, function() {
-            pulse();
-        });
-    }); 
-};
+$(document).on('mouseenter','.glow', function (){
+  alert('get off me!');
 
-pulse();
+});
