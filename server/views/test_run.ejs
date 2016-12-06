@@ -98,6 +98,8 @@ body {
     </div>  -->
     <div class="clearfix"></div>
 
+    <div class="html-container"></div>
+
     <div class="row preview">
       <iframe id="iframe" name="CloudEdit"
         sandbox="allow-modals allow-scripts allow-pointer-lock allow-same-origin allow-popups allow-forms"
@@ -121,16 +123,11 @@ body {
   //   $('#liveEdit').trigger('click');
   //   alert('ran');
   // });
-  // $(document).ready(function() {
-  //   $('.html-container').load('/html', function() {
-  //     html = $('.html-container').html();
-  //     // alert(html);
-  //     // $('.ace_scroller').text(html);
-  //   });
-  //   $('.css-container').load('/css');
-  //   $('.js-container').load('/js');
-  //   $('.results').load('/template');
-  // });
+  $(document).ready(function() {
+    $('.html-container').load('/template', function() {
+      html = $('.html-container').html();
+    });
+  });
 </script>
 </html>
 

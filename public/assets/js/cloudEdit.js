@@ -338,9 +338,11 @@
   // Publish output from HTML, CSS, and JS textareas in the iframe below
   // after given keyup delay if "use.liveEdit: true".
   htmlField.getSession().on("change", function(e) {
+    $('.html-container').remove();
     if (use.liveEdit) preview(1000);
   });
   cssField.getSession().on("change", function(e) {
+    $('.html-container').remove();
     if (use.liveEdit) preview(2000);
   });
 
