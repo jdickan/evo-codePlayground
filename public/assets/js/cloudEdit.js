@@ -345,7 +345,11 @@
     $('.html-container').remove();
     if (use.liveEdit) preview(2000);
   });
-
+  jsField.getSession().on("change", function(e) {
+    $('.html-container').remove();
+    if (use.liveEdit) preview(2000);
+  });
+  
   // Update preview window AND js console on click of "Run" button
   $("#run").on("click", function() {
     preview();

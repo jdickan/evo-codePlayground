@@ -39,7 +39,7 @@ app.get('/template', function(req, res) {
 });
 
 // 
-app.get('/test', function(req, res) {
+app.get('/version2', function(req, res) {
   res.render(__dirname + '/server/views/test_run.ejs');
 });
 
