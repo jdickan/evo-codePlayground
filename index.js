@@ -38,6 +38,15 @@ app.get('/template', function(req, res) {
   res.render(__dirname + '/server/views/template.ejs');
 });
 
+// 
+app.get('/test', function(req, res) {
+  res.render(__dirname + '/server/views/test_run.ejs');
+});
+
+// 
+app.get('/cm', function(req, res) {
+  res.render(__dirname + '/server/views/codemirror_ex.ejs');
+});
 var port = 3030;
     app.listen(port);
 console.log('Listening on port ' + port + '...');
