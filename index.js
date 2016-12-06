@@ -18,32 +18,32 @@ app.get('/', function(req, res) {
   res.render(__dirname + '/server/views/playground.ejs');
 });
 
-// 
+//
 app.get('/html', function(req, res) {
   res.render(__dirname + '/server/views/html/html.ejs');
 });
 
-// 
+//
 app.get('/css', function(req, res) {
   res.render(__dirname + '/server/views/css/css.ejs');
 });
 
-// 
+//
 app.get('/js', function(req, res) {
   res.render(__dirname + '/server/views/js/js.ejs');
 });
 
-// 
+//
 app.get('/template', function(req, res) {
   res.render(__dirname + '/server/views/template.ejs');
 });
 
-// 
+//
 app.get('/version2', function(req, res) {
   res.render(__dirname + '/server/views/test_run.ejs');
 });
 
-// 
+//
 app.get('/cm', function(req, res) {
   res.render(__dirname + '/server/views/codemirror_ex.ejs');
 });
