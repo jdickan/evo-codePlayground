@@ -109,6 +109,7 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
+        overflow: scroll;
         position: absolute;
         left: 0;
         top: 0; }
