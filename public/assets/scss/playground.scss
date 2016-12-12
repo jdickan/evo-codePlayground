@@ -83,9 +83,31 @@ body {
           }
         }
       }
+<<<<<<< HEAD
       .box-output {
         flex-grow: 1;
         position: relative;
+=======
+    }
+    .box-output {
+      flex-grow: 1;
+      position: relative;
+
+      .results {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        border: none;
+        border-top: 1px solid $dark;
+        border-radius: 0;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        position: absolute;
+        left: 0;
+        top: 0;
+>>>>>>> 92598bf7300deef9b7ce55163e08b25e70bc5263
 
         .results {
           height: 100%;
