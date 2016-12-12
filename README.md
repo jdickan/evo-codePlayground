@@ -66,10 +66,10 @@ This file is what is in charge of the routes for the application as well as sett
 #### package.json
 This is the file that lists all the delendencies.  This file is also what gets updated when dependencies change
 
-####server direcotry
+####Server directory
 This directory is where the views are kept.  This directory holds the files that are seen by peopl visiting the application.
 
-####public directory
+####Public directory
 This directory holds the asset files used by the application.  Specifically the css (or scss), javascript and image files that would be used.
 
 ####node_modules
