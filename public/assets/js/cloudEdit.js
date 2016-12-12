@@ -36,11 +36,11 @@
   // Init ACE Editor and set options;
   (function initAce() {
     var aceTheme;
-    if (localStorage.getItem("theme")) {
-      aceTheme = localStorage.getItem("theme");
-    } else {
+    // if (localStorage.getItem("theme")) {
+    //   aceTheme = localStorage.getItem("theme");
+    // } else {
       aceTheme = "ace/theme/merbivore";
-    }
+    // }
 
     // HTML Editor
     window.htmlField = ace.edit("html");

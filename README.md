@@ -28,3 +28,30 @@ $ npm install -g nodemon
 ```
 
 Once that has finished you can run the application by typing `$ nodemon index.js` in place of the `$ node index.js` command. Both will work.
+
+## Dependencies
+
+This setup requires a node.js server.  It uses the [ejs](http://www.embeddedjs.com/) templating system.  In order to setup you would need to run the instructions above in order to setup the application and it's dependencies. 
+
+> In order to run this application it requires all the files inside the root directory.  However, the files linked to the ace code editor listed below could be removed and the application itself would still run.  The editor would not work but the application would still start up and run.
+
+The code editor in this application relies on the [Ace](https://ace.c9.io) code editor plugin.
+
+### Required files for ACE code editor plugin
+
+
+Required CSS
+
+Located in /public/assets/css/
+
+```shell
+cloudEditCustom.css
+```
+
+Required JS (All the files inside the folder below)
+
+located in /public/assets/js/
+
+```shell
+/public/assets/js/
+```
