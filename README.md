@@ -39,8 +39,7 @@ The code editor in this application relies on the [Ace](https://ace.c9.io) code 
 
 ### Required files for ACE code editor plugin
 
-
-Required CSS
+####Required CSS
 
 Located in /public/assets/css/
 
@@ -48,10 +47,30 @@ Located in /public/assets/css/
 cloudEditCustom.css
 ```
 
-Required JS (All the files inside the folder below)
+####Required JS (All the files inside the folder below)
 
 located in /public/assets/js/
 
 ```shell
 /public/assets/js/
 ```
+
+### File structure
+
+#### Procile
+This tells the application how to start up.
+
+#### index.js
+This file is what is in charge of the routes for the application as well as setting up the dependencies that will be used by the application
+
+#### package.json
+This is the file that lists all the delendencies.  This file is also what gets updated when dependencies change
+
+####server direcotry
+This directory is where the views are kept.  This directory holds the files that are seen by peopl visiting the application.
+
+####public directory
+This directory holds the asset files used by the application.  Specifically the css (or scss), javascript and image files that would be used.
+
+####node_modules
+This directory holds all the included modules for node that the application uses.  This is generated when you create the application in the steps above.  It is included in the gitignore.
