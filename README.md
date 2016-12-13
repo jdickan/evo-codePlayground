@@ -1,7 +1,11 @@
 # evo-codePlayground
 Codepen-style playground for presenting code patterns and experimenting with live edits and changes.
 
-## Setup the application
+## Summary
+
+A node.js dependent code playground that uses the embedded javascript templating language to include files in the editing boxes.
+
+## Setup 
 ```shell
 $ cd into the directory
 $ npm install express --save
@@ -10,19 +14,19 @@ $ npm install body-parser --save
 $ npm install ejs -- save
 ```
 
-## To start the server
+### To start the server:
 ```shell
 $ node index.js
 ```
 
-## To view the page (on local server)
+### To view the page (on local server):
 
 Navigate to [localhost:3030](http://localhost:3030/) and you should see the root page.
 
-## Tip
+#### Tip
 >The node server needs to be restarted to show changes. Installing [nodemon](https://www.npmjs.com/package/nodemon) gets around this by automatically restarting the server when changes occur.  It might be worth looking into installing nodemon to make development a nicer experience, but it is not necessary to run the application.
 
-### To install globally
+#### To install globally:
 ```shell
 $ npm install -g nodemon
 ```
@@ -55,7 +59,7 @@ located in /public/assets/js/
 /public/assets/js/
 ```
 
-## File structure
+## Structure
 
 #### Procfile
 >This tells the application how to start up.
@@ -67,10 +71,13 @@ located in /public/assets/js/
 >This is the file that lists all the delendencies.  This file is also what gets updated when dependencies change
 
 ####Server directory
->This directory is where the views are kept.  This directory holds the files that are seen by peopl visiting the application.
+>This directory is where the views are kept.  This directory holds the files that are seen by people visiting the application.
 
-####Public directory
+####public directory
 >This directory holds the asset files used by the application.  Specifically the css (or scss), javascript and image files that would be used.
 
 ####node_modules
 >This directory holds all the included modules for node that the application uses.  This is generated when you create the application in the steps above.  It is included in the gitignore.
+
+##
+![Code Playground](./public/assets/img/evo-cp-ace.png "Code Playground")
