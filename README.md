@@ -31,7 +31,7 @@ Once that has finished you can run the application by typing `$ nodemon index.js
 
 ## Dependencies
 
-This setup requires a node.js server.  It uses the [ejs](http://www.embeddedjs.com/) templating system.  In order to setup you would need to run the instructions above in order to setup the application and it's dependencies. 
+This setup requires a node.js server.  It uses the [ejs](http://www.embeddedjs.com/) templating system.  In order to setup you would need to run the instructions above in order to setup the application and it's dependencies.
 
 > In order to run this application it requires all the files inside the root directory.  However, the files linked to the ace code editor listed below could be removed and the application itself would still run.  The editor would not work but the application would still start up and run.
 
@@ -67,7 +67,7 @@ located in /public/assets/js/
 >This is the file that lists all the delendencies.  This file is also what gets updated when dependencies change
 
 ####Server directory
->This directory is where the views are kept.  This directory holds the files that are seen by peopl visiting the application.
+>This directory is where the views are kept.  This directory holds the files that are seen by people visiting the application.
 
 ####Public directory
 >This directory holds the asset files used by the application.  Specifically the css (or scss), javascript and image files that would be used.
