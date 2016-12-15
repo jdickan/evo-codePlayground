@@ -79,5 +79,5 @@ located in /public/assets/js/
 ####node_modules
 >This directory holds all the included modules for node that the application uses.  This is generated when you create the application in the steps above.  It is included in the gitignore.
 
-##
+## Screenshot
 ![Code Playground](./public/assets/img/evo-cp-ace.png "Code Playground")
