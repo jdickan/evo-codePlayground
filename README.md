@@ -1,5 +1,5 @@
-# evo- ace-code-playground
-Codepen-style playground for presenting code patterns and experimenting with live edits and changes.
+# ace-code-playground
+Codepen-style playground for presenting code patterns and experimenting with live edits and changes. Uses the Ace code editor plugin.
 
 ## Summary
 
